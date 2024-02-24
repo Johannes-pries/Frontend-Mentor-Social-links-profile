@@ -16,3 +16,20 @@ body {
     --Off-Black: hsl(0, 0%, 8%);
 }
 
+.main {
+    min-width: 100%;
+    min-height: 100vh;
+    background: var(--Off-Black);
+    display: grid;
+    place-content: center;
+}
+
+.card {
+    height: 10rem;
+    width: 10rem;
+    background: var(--Dark-Grey);
+    border-radius: 8px;
+    display: grid;
+}
+
+
